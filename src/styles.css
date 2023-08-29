@@ -1,0 +1,248 @@
+@import '@ctrl/ngx-emoji-mart/picker';
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  text-transform: capitalize;
+  overflow-x: hidden;
+}
+a{
+  cursor: pointer;
+  border: 1px solid purple;
+  padding: 5px 1rem;
+  border-radius: 0.5rem;
+}
+.home{
+  background-color: rgba(242,244,248,255);
+  min-height: 100vh;
+}
+.text-green{
+  color: rgb(102, 164, 8);
+}
+
+
+/* searchbar */
+
+.searchbar{
+  background-color: rgba(254,254,254,255);
+}
+.contain-search-input{
+  position: relative;
+}
+.input-search{
+  position: relative;
+}
+.search-in-input{
+  position: absolute;
+  top: 0.7rem;
+  left: 18rem;
+  color: grey;
+  cursor: pointer;
+}
+.img-person{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+.not-icon{
+  font-size: 1.5rem;
+  position: relative;
+}
+.number-notivcation{
+  position: absolute;
+  color: aliceblue;
+  background-color: blueviolet;
+  border-radius: 50%;
+  left:86.3rem;
+  top: 2rem;
+  width: 15px;
+  height: 15px;
+  font-size: 10px;
+  text-align: center;
+}
+@media (max-width:1492px) {
+  .number-notivcation{
+    display: none;
+  }
+}
+
+/* tasks */
+
+
+.babyblue{
+  color: rgb(97, 208, 208);
+  text-decoration: underline;
+}
+.reminder-btn
+{
+  cursor: pointer;
+  border: none;
+  background-color: rgba(233,232,255,255);
+  color:rgba(81,80,252,255);
+  border-radius: 0.5rem;
+  padding: 5px 0.5rem;
+}
+.progress-bar{
+  height: 8px;
+  border-radius: 0.5rem;
+}
+.url{
+  color: rgba(81,80,252,255);
+}
+.url i{
+  color: rgb(176, 169, 169);
+}
+.c-gray{
+  color: rgb(155, 146, 146);
+
+}
+
+.play-icon{
+  background-color: rgba(81,80,252,255);
+  color: aliceblue;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  padding-top: 1.4rem;
+  text-align: center;
+  box-shadow: 0px 4px 2px 0px rgba(192, 190, 190,0.8);
+  cursor: pointer;
+}
+
+/* sidenav */
+
+
+nav .row i{
+  color: grey;
+  cursor: pointer;
+  background-color: rgba(251,250,255,255);
+}
+
+@media (max-width:995px) {
+  nav{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+  }
+  nav .row i{
+    width: 16%;
+  }
+}
+
+/* schedule */
+
+.c-purple{
+  color: blueviolet;
+  padding-left: 10px;
+  font-size: 1.5rem;
+}
+/* contain images rounded */
+.contain-imgs {
+  display: flex;
+  align-items: center;
+}
+.contain-imgs img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-right: -15px;
+  outline: 2px solid aliceblue;
+  position: relative;
+  z-index: 1;
+}
+.image-container img:last-child {
+  margin-right: 10;
+}
+
+.col-blue{
+  color: rgb(6, 224, 224);
+}
+.bg-grey{
+  background-color: rgba(231,237,243,255);
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  height: 3rem;
+}
+.colbrative img{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+.colbrative{
+border-radius: 50rem;
+padding: 5px 2px;
+background-color: rgb(221, 206, 235);
+color: rgb(68, 39, 96);
+}
+ .two{
+  background-color: #a8dae7;
+  color: #438697;
+}
+.bg-purple{
+  background-color: rgba(81,80,252,255);
+  color: aliceblue;
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0px 4px 2px 0px rgba(60, 58, 58, 0.2);
+}
+
+.img-person2{
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+}
+.mr-1{
+  margin-right: 0.5rem;
+}
+.message-text{
+  color: rgb(100, 96, 96);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.add-icon{
+  background-color: rgb(206, 204, 208);
+  color: rgb(44, 45, 45);
+  font-size: 1rem;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  text-align: center;
+  cursor: pointer;
+  padding-top: 0.5rem;
+}
+.right-arrow
+{
+  cursor: pointer;
+  background-color: rgba(81,80,252,255);
+  color: aliceblue;
+  font-size: 1.5rem;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  text-align: center;
+  padding-top: 0.2rem;
+}
+.s-emoji
+{
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+
+/* profile */
+.bg-babydark{
+  background-color: rgb(218, 217, 217);
+  min-height: 100vh;
+}
+.profile-img{
+  width: 250px;
+  height: 300px;
+  border-radius: 50%;
+}
