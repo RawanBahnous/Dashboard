@@ -2,12 +2,7 @@
 
 The Angular dashboard application designed for managing messages and tasks. It provides a userfriendly interface for efficient management and organization.
 
-## Getting Started
-
 These instructions will guide you through setting up and running the Angular Dashboard project on your local machine.
-
-### Prerequisites
-
 To run this project, you'll need the following software installed on your system:
 
 - [npm] - Node Package Manager
